@@ -1,0 +1,291 @@
+\section{superquadric\-Model\-\_\-\-I\-D\-L Class Reference}
+\label{classsuperquadricModel__IDL}\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}}
+
+
+\hyperlink{classsuperquadricModel__IDL}{superquadric\-Model\-\_\-\-I\-D\-L} I\-D\-L Interface to \hyperlink{group__superquadric-model}{superquadric-\/model} services.  
+
+
+
+
+{\ttfamily \#include $<$superquadric\-Model\-\_\-\-I\-D\-L.\-h$>$}
+
+
+
+Inherits Wire.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{classsuperquadricModel__IDL_a781426bfc4862e87ef75a4bbbfa33275}{set\-\_\-tag\-\_\-file} (const std\-::string \&entry)
+\begin{DoxyCompactList}\small\item\em Set the tag for storing files. \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsuperquadricModel__IDL_a6d39eaa247aec65fe2bfefbdace4ec85}{get\-\_\-tag\-\_\-file} ()
+\begin{DoxyCompactList}\small\item\em Return the tag used for storing files. \end{DoxyCompactList}\item 
+virtual yarp\-::os\-::\-Property \hyperlink{classsuperquadricModel__IDL_a10039bb93445066d9dd29d8f6c9ef6c5}{get\-\_\-superq} (const std\-::vector$<$ yarp\-::sig\-::\-Vector $>$ \&point\-\_\-cloud, const bool filtered\-\_\-or\-\_\-not, const bool reset\-\_\-or\-\_\-not)
+\begin{DoxyCompactList}\small\item\em Get the parameters of the reconstructed superquadric. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsuperquadricModel__IDL_a1a2080d797a81b46b0dffa86b5367e15}{set\-\_\-points\-\_\-filtering} (const std\-::string \&entry)
+\begin{DoxyCompactList}\small\item\em On/off point cloud filtering. \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsuperquadricModel__IDL_aa490ebcf39414aaaae41d5095267abb9}{get\-\_\-points\-\_\-filtering} ()
+\begin{DoxyCompactList}\small\item\em Say if points filtering is on or not. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsuperquadricModel__IDL_af418edf09afd9374c5272d018c58e8a7}{set\-\_\-superq\-\_\-filtering} (const std\-::string \&entry)
+\begin{DoxyCompactList}\small\item\em On/off superquadric filtering. \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsuperquadricModel__IDL_af99d29d42b96b8db6c90c5fd48cfb253}{get\-\_\-superq\-\_\-filtering} ()
+\begin{DoxyCompactList}\small\item\em Say if superquadric filtering is on or not. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsuperquadricModel__IDL_a8368b783845a3e5ae7e0706ee5b888c0}{set\-\_\-save\-\_\-points} (const std\-::string \&entry)
+\begin{DoxyCompactList}\small\item\em Set if you want to save the acquired point cloud. \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsuperquadricModel__IDL_a4b101fe118a1ee912468562bde0b0df4}{get\-\_\-save\-\_\-points} ()
+\begin{DoxyCompactList}\small\item\em Set if you are saving the acquired point cloud. \end{DoxyCompactList}\item 
+virtual yarp\-::os\-::\-Property \hyperlink{classsuperquadricModel__IDL_a50b388a29852f9d8b57a0bbb276d4675}{get\-\_\-options} (const std\-::string \&field)
+\begin{DoxyCompactList}\small\item\em Get the parameters of the module. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsuperquadricModel__IDL_a575e0b591f07206b0d6c29e5cfeead37}{set\-\_\-options} (const yarp\-::os\-::\-Property \&options, const std\-::string \&field)
+\begin{DoxyCompactList}\small\item\em Set the parameters of the module. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsuperquadricModel__IDL_a651c741e9b01b25d46be96b06b91011d}{set\-\_\-visualization} (const std\-::string \&e)
+\begin{DoxyCompactList}\small\item\em Set if the visualization has to be enabled. \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsuperquadricModel__IDL_a5d9f4f0622ba19b60218636dc108ef61}{get\-\_\-visualization} ()
+\begin{DoxyCompactList}\small\item\em Get if visualization is enabled. \end{DoxyCompactList}\item 
+virtual bool {\bfseries read} (yarp\-::os\-::\-Connection\-Reader \&connection)\label{classsuperquadricModel__IDL_ac72a24dddca13978d7adcd5cf4f40b1f}
+
+\item 
+virtual std\-::vector$<$ std\-::string $>$ {\bfseries help} (const std\-::string \&function\-Name=\char`\"{}-\/-\/all\char`\"{})\label{classsuperquadricModel__IDL_a263ca3dc1c7a21cc3ac40caadc95cf3d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classsuperquadricModel__IDL}{superquadric\-Model\-\_\-\-I\-D\-L} I\-D\-L Interface to \hyperlink{group__superquadric-model}{superquadric-\/model} services. 
+
+Definition at line 19 of file superquadric\-Model\-\_\-\-I\-D\-L.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!get\-\_\-options@{get\-\_\-options}}
+\index{get\-\_\-options@{get\-\_\-options}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{get\-\_\-options}]{\setlength{\rightskip}{0pt plus 5cm}virtual yarp\-::os\-::\-Property superquadric\-Model\-\_\-\-I\-D\-L\-::get\-\_\-options (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{field}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a50b388a29852f9d8b57a0bbb276d4675}
+
+
+Get the parameters of the module. 
+
+The user must pay attention in changing them. 
+\begin{DoxyParams}{Parameters}
+{\em field} & can be \char`\"{}points\-\_\-filter\char`\"{}, \char`\"{}superq\-\_\-filter\char`\"{}, \char`\"{}optimization\char`\"{}, \char`\"{}visualization\char`\"{} or \char`\"{}statistics\char`\"{}. depending on which parameters we are interested in. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Property including all the parameter values. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!get\-\_\-points\-\_\-filtering@{get\-\_\-points\-\_\-filtering}}
+\index{get\-\_\-points\-\_\-filtering@{get\-\_\-points\-\_\-filtering}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{get\-\_\-points\-\_\-filtering}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string superquadric\-Model\-\_\-\-I\-D\-L\-::get\-\_\-points\-\_\-filtering (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_aa490ebcf39414aaaae41d5095267abb9}
+
+
+Say if points filtering is on or not. 
+
+\begin{DoxyReturn}{Returns}
+on/off string if points filtering is on/off. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!get\-\_\-save\-\_\-points@{get\-\_\-save\-\_\-points}}
+\index{get\-\_\-save\-\_\-points@{get\-\_\-save\-\_\-points}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{get\-\_\-save\-\_\-points}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string superquadric\-Model\-\_\-\-I\-D\-L\-::get\-\_\-save\-\_\-points (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a4b101fe118a1ee912468562bde0b0df4}
+
+
+Set if you are saving the acquired point cloud. 
+
+\begin{DoxyReturn}{Returns}
+\char`\"{}on\char`\"{} or \char`\"{}off\char`\"{}. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!get\-\_\-superq@{get\-\_\-superq}}
+\index{get\-\_\-superq@{get\-\_\-superq}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{get\-\_\-superq}]{\setlength{\rightskip}{0pt plus 5cm}virtual yarp\-::os\-::\-Property superquadric\-Model\-\_\-\-I\-D\-L\-::get\-\_\-superq (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ yarp\-::sig\-::\-Vector $>$ \&}]{point\-\_\-cloud, }
+\item[{const bool}]{filtered\-\_\-or\-\_\-not, }
+\item[{const bool}]{reset\-\_\-or\-\_\-not}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a10039bb93445066d9dd29d8f6c9ef6c5}
+
+
+Get the parameters of the reconstructed superquadric. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em point\-\_\-cloud} & is the 3\-D point cloud of the object we want to model with the superquadric, for instance\-: ((100.\-0 102.\-0) (100.\-0 103.\-0) ... ). \\
+\hline
+{\em filtered\-\_\-or\-\_\-not} & is a bool variable specifing if we want the superquadric to be filtered (true/1) or not (false/0). \\
+\hline
+{\em reset\-\_\-or\-\_\-not} & is a bool variable specifing if we want to reset the superquadric filtered (if enabled) or not. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the 12 parameters (x0, .. x11) of the current superquadric. In particular, the parameters are grouped in a Property as follows\-: \char`\"{}dimensions\char`\"{} (x0, x1, x2) are the three semi-\/axes lenghts; \char`\"{}exponents\char`\"{} (x3 and x4) are the exponents, responsible for the superquadric shape; \char`\"{}center\char`\"{}(x5, x6, x7) contains the coordinate of the superquadric center; and \char`\"{}orientation\char`\"{} (x8, x9, 10, x11) is the axis-\/angle representation obtained from the Euler angles. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!get\-\_\-superq\-\_\-filtering@{get\-\_\-superq\-\_\-filtering}}
+\index{get\-\_\-superq\-\_\-filtering@{get\-\_\-superq\-\_\-filtering}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{get\-\_\-superq\-\_\-filtering}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string superquadric\-Model\-\_\-\-I\-D\-L\-::get\-\_\-superq\-\_\-filtering (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_af99d29d42b96b8db6c90c5fd48cfb253}
+
+
+Say if superquadric filtering is on or not. 
+
+\begin{DoxyReturn}{Returns}
+on/off string if superquadeic filtering is on/off. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!get\-\_\-tag\-\_\-file@{get\-\_\-tag\-\_\-file}}
+\index{get\-\_\-tag\-\_\-file@{get\-\_\-tag\-\_\-file}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{get\-\_\-tag\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string superquadric\-Model\-\_\-\-I\-D\-L\-::get\-\_\-tag\-\_\-file (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a6d39eaa247aec65fe2bfefbdace4ec85}
+
+
+Return the tag used for storing files. 
+
+\begin{DoxyReturn}{Returns}
+the tag name. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!get\-\_\-visualization@{get\-\_\-visualization}}
+\index{get\-\_\-visualization@{get\-\_\-visualization}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{get\-\_\-visualization}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string superquadric\-Model\-\_\-\-I\-D\-L\-::get\-\_\-visualization (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a5d9f4f0622ba19b60218636dc108ef61}
+
+
+Get if visualization is enabled. 
+
+\begin{DoxyReturn}{Returns}
+\char`\"{}on\char`\"{} or \char`\"{}off\char`\"{}. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!set\-\_\-options@{set\-\_\-options}}
+\index{set\-\_\-options@{set\-\_\-options}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{set\-\_\-options}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool superquadric\-Model\-\_\-\-I\-D\-L\-::set\-\_\-options (
+\begin{DoxyParamCaption}
+\item[{const yarp\-::os\-::\-Property \&}]{options, }
+\item[{const std\-::string \&}]{field}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a575e0b591f07206b0d6c29e5cfeead37}
+
+
+Set the parameters of the module. 
+
+The user must pay attention in changing them. 
+\begin{DoxyParams}{Parameters}
+{\em options} & is a Property containing the parameters the user want to change. \\
+\hline
+{\em field} & is a string specifying which can of parameter we are going to change. Field can be\-: \char`\"{}points\-\_\-filter\char`\"{}, \char`\"{}superq\-\_\-filter\char`\"{}, \char`\"{}optimization\char`\"{} or \char`\"{}visualization\char`\"{}. You can set the parameters typing\-: command\-: set\-\_\-options ((filter\-\_\-radius $<$radius-\/value$>$) (filter\-\_\-nn\-Threshold $<$nn\-Threshold-\/value$>$)) points\-\_\-filter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false on success/failure. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!set\-\_\-points\-\_\-filtering@{set\-\_\-points\-\_\-filtering}}
+\index{set\-\_\-points\-\_\-filtering@{set\-\_\-points\-\_\-filtering}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{set\-\_\-points\-\_\-filtering}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool superquadric\-Model\-\_\-\-I\-D\-L\-::set\-\_\-points\-\_\-filtering (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{entry}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a1a2080d797a81b46b0dffa86b5367e15}
+
+
+On/off point cloud filtering. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & is \char`\"{}on/off\char`\"{} if you want/do not want to filter points. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false on success/failure. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!set\-\_\-save\-\_\-points@{set\-\_\-save\-\_\-points}}
+\index{set\-\_\-save\-\_\-points@{set\-\_\-save\-\_\-points}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{set\-\_\-save\-\_\-points}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool superquadric\-Model\-\_\-\-I\-D\-L\-::set\-\_\-save\-\_\-points (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{entry}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a8368b783845a3e5ae7e0706ee5b888c0}
+
+
+Set if you want to save the acquired point cloud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & can be\-: \char`\"{}on\char`\"{} or \char`\"{}off\char`\"{}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false on success/failure. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!set\-\_\-superq\-\_\-filtering@{set\-\_\-superq\-\_\-filtering}}
+\index{set\-\_\-superq\-\_\-filtering@{set\-\_\-superq\-\_\-filtering}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{set\-\_\-superq\-\_\-filtering}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool superquadric\-Model\-\_\-\-I\-D\-L\-::set\-\_\-superq\-\_\-filtering (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{entry}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_af418edf09afd9374c5272d018c58e8a7}
+
+
+On/off superquadric filtering. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & is \char`\"{}on/off\char`\"{} if you want/do not want to filter the estimated superquadric. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true/false on success/failure. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!set\-\_\-tag\-\_\-file@{set\-\_\-tag\-\_\-file}}
+\index{set\-\_\-tag\-\_\-file@{set\-\_\-tag\-\_\-file}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{set\-\_\-tag\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool superquadric\-Model\-\_\-\-I\-D\-L\-::set\-\_\-tag\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{entry}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a781426bfc4862e87ef75a4bbbfa33275}
+
+
+Set the tag for storing files. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & is the tag that will be used in file names. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true. 
+\end{DoxyReturn}
+\index{superquadric\-Model\-\_\-\-I\-D\-L@{superquadric\-Model\-\_\-\-I\-D\-L}!set\-\_\-visualization@{set\-\_\-visualization}}
+\index{set\-\_\-visualization@{set\-\_\-visualization}!superquadricModel_IDL@{superquadric\-Model\-\_\-\-I\-D\-L}}
+\subsubsection[{set\-\_\-visualization}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool superquadric\-Model\-\_\-\-I\-D\-L\-::set\-\_\-visualization (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsuperquadricModel__IDL_a651c741e9b01b25d46be96b06b91011d}
+
+
+Set if the visualization has to be enabled. 
+
+\begin{DoxyReturn}{Returns}
+true/false on success/failure. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/gvezzani/\-Desktop/\-Ph\-D/\-Anno\-\_\-1/super\-Quadratiche/superquadric-\/model/idl\-\_\-dox/superquadric\-Model\-\_\-\-I\-D\-L.\-h\end{DoxyCompactItemize}
